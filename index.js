@@ -3,7 +3,7 @@ var app =express();
 
 
 app.use('/',(req,res)=>{
-    res.send('ChatFlicker')
+    res.send('<h1>ChatFlicker</h1>')
 })
 
 
